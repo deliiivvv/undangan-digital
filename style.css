@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #f4efe8;
+    color: #3f3932;
+}
+
+.cover {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.subtitle {
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.ampersand {
+    font-size: 28px;
+    margin: 8px 0;
+}
+
+.date {
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.guest {
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+button {
+    margin-top: 25px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #3f3932;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
