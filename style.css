@@ -135,3 +135,36 @@ button:hover {
     font-size: 14px;
     line-height: 1.9;
 }
+.invitation-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.invitation h2 {
+    font-size: 52px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.invitation-and {
+    font-size: 30px;
+    font-style: italic;
+    margin: 12px 0;
+}
+
+.invitation-date {
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.invitation-message {
+    max-width: 420px;
+    margin: 40px auto 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+}
