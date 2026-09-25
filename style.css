@@ -423,3 +423,22 @@ button:hover {
     font-family: Arial, sans-serif;
     cursor: pointer;
 }
+#music-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: 1px solid #3f3932;
+
+    background: #f4efe8;
+    color: #3f3932;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    z-index: 1000;
+}
