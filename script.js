@@ -88,6 +88,10 @@ rsvpForm.addEventListener("submit", function (event) {
 
     event.preventDefault();
 
+    const submitButton = rsvpForm.querySelector("button");
+submitButton.disabled = true;
+submitButton.textContent = "MENGIRIM...";
+
     const nama = rsvpForm.querySelector("input").value;
     const kehadiran = rsvpForm.querySelectorAll("select")[0].value;
     const jumlah = rsvpForm.querySelectorAll("select")[1].value;
@@ -108,11 +112,16 @@ rsvpForm.addEventListener("submit", function (event) {
 
         rsvpForm.reset();
 
+        submitButton.disabled = false;
+submitButton.textContent = "KONFIRMASI KEHADIRAN";
+
     })
-    .catch(function () {
+   .catch(function () {
 
-        alert("Maaf, terjadi kesalahan. Silakan coba lagi.");
+    alert("Maaf, terjadi kesalahan. Silakan coba lagi.");
 
-    });
+    submitButton.disabled = false;
+    submitButton.textContent = "KONFIRMASI KEHADIRAN";
 
+});
 });
