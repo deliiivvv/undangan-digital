@@ -504,7 +504,7 @@ button:hover {
     height: 165px;
     border: 1px solid rgba(63, 57, 50, 0.35);
     padding: 6px;
-    border-radius: 50% / 45%;
+    border-radius: 50%;
     overflow: hidden;
 }
 
