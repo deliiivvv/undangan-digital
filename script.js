@@ -93,9 +93,10 @@ rsvpForm.addEventListener("submit", function (event) {
     const jumlah = rsvpForm.querySelectorAll("select")[1].value;
 
     fetch("https://script.google.com/macros/s/AKfycbz5qH0qvwL5SzSg4iX-atFx5IIXn_s5QrDsg1WLJ57MeA8x8A0bTgvwWW_VpOj8Gf8q4w/exec", {
-        method: "POST",
+    method: "POST",
+    mode: "no-cors",
 
-        body: JSON.stringify({
+    body: JSON.stringify({
             nama: nama,
             kehadiran: kehadiran,
             jumlah: jumlah
