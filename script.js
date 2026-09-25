@@ -40,3 +40,25 @@ setInterval(function () {
     document.getElementById("seconds").textContent = seconds;
 
 }, 1000);
+const galleryImages = document.querySelectorAll(".gallery-item img");
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+const lightboxClose = document.querySelector(".lightbox-close");
+
+galleryImages.forEach(function (image) {
+
+    image.addEventListener("click", function () {
+
+        lightbox.style.display = "flex";
+
+        lightboxImage.src = image.src;
+
+    });
+
+});
+
+lightboxClose.addEventListener("click", function () {
+
+    lightbox.style.display = "none";
+
+});
