@@ -27,6 +27,19 @@ body {
     font-size: 13px;
     letter-spacing: 5px;
     margin-bottom: 28px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.subtitle::after {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 1px;
+    background: #3f3932;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h1 {
