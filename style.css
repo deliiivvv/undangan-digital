@@ -34,8 +34,8 @@ body {
 .subtitle::after {
     content: "";
     position: absolute;
-    width: 45px;
-    height: 1px;
+    width: 60px;
+height: 2px;
     background: #3f3932;
     bottom: 0;
     left: 50%;
