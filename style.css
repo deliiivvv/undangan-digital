@@ -207,3 +207,45 @@ button:hover {
     line-height: 1.8;
     margin-bottom: 3px;
 }
+.location {
+    margin-top: 70px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.location-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.location h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.location p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.maps-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border: 1px solid #3f3932;
+    border-radius: 30px;
+    color: #3f3932;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.maps-button:hover {
+    background: #3f3932;
+    color: white;
+}
