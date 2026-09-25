@@ -85,3 +85,21 @@ button:hover {
     background: #3f3932;
     color: white;
 }
+.invitation {
+    display: none;
+    min-height: 100vh;
+    padding: 60px 25px;
+    text-align: center;
+    background: #f4efe8;
+}
+
+.invitation h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.invitation p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
