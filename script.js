@@ -9,7 +9,7 @@ button.addEventListener("click", function () {
     invitation.style.display = "block";
 
 });
-const weddingDate = new Date("July 12, 2027 09:00:00").getTime();
+const weddingDate = new Date("2027-07-12T09:00:00+07:00").getTime();
 
 setInterval(function () {
 
