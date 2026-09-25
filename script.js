@@ -62,3 +62,23 @@ lightboxClose.addEventListener("click", function () {
     lightbox.style.display = "none";
 
 });
+const music = document.getElementById("wedding-music");
+const musicButton = document.getElementById("music-button");
+
+musicButton.addEventListener("click", function () {
+
+    if (music.paused) {
+
+        music.play();
+
+        musicButton.textContent = "❚❚";
+
+    } else {
+
+        music.pause();
+
+        musicButton.textContent = "♫";
+
+    }
+
+});
