@@ -21,30 +21,31 @@ body {
 }
 
 .subtitle {
-    font-size: 14px;
-    letter-spacing: 4px;
-    margin-bottom: 25px;
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-bottom: 28px;
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 54px;
     font-weight: normal;
     letter-spacing: 2px;
 }
 
 .ampersand {
     font-size: 28px;
-    margin: 8px 0;
+    margin: 10px 0;
+    font-style: italic;
 }
 
 .date {
     margin-top: 30px;
-    font-size: 16px;
-    letter-spacing: 3px;
+    font-size: 15px;
+    letter-spacing: 4px;
 }
 
 .guest {
-    margin-top: 50px;
+    margin-top: 45px;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 1.8;
@@ -52,11 +53,17 @@ h1 {
 
 button {
     margin-top: 25px;
-    padding: 14px 30px;
-    border: none;
+    padding: 14px 32px;
+    border: 1px solid #3f3932;
     border-radius: 30px;
-    background: #3f3932;
-    color: white;
+    background: transparent;
+    color: #3f3932;
     font-size: 14px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3f3932;
+    color: white;
 }
