@@ -285,3 +285,30 @@ button:hover {
     font-size: 11px;
     letter-spacing: 1px;
 }
+.closing {
+    margin-top: 80px;
+    padding: 70px 25px 100px;
+    text-align: center;
+}
+
+.closing-message {
+    max-width: 420px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.closing-thanks {
+    margin-top: 45px;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.closing-names {
+    margin-top: 15px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
