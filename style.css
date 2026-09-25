@@ -181,3 +181,29 @@ button:hover {
     background: #3f3932;
     margin: 15px auto 0;
 }
+.event-details {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.event {
+    padding: 25px 20px;
+    border-top: 1px solid rgba(63, 57, 50, 0.2);
+    border-bottom: 1px solid rgba(63, 57, 50, 0.2);
+}
+
+.event h3 {
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+.event p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 3px;
+}
