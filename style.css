@@ -204,8 +204,8 @@ button:hover {
 .event p {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    line-height: 1.8;
-    margin-bottom: 3px;
+    line-height: 2;
+    margin-bottom: 5px;
 }
 .location {
     margin-top: 70px;
