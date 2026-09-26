@@ -382,6 +382,7 @@ button:hover {
 .gallery-item {
     overflow: hidden;
     aspect-ratio: 1 / 1;
+    border-radius: 8px;
 }
 
 .gallery-item img {
