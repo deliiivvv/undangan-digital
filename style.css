@@ -195,10 +195,10 @@ button:hover {
 }
 
 .event h3 {
-    font-size: 14px;
-    letter-spacing: 4px;
+    font-size: 13px;
+    letter-spacing: 5px;
     font-weight: normal;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
 }
 
 .event p {
