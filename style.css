@@ -372,11 +372,11 @@ button:hover {
 }
 
 .gallery-grid {
-    max-width: 700px;
+    max-width: 720px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 15px;
 }
 
 .gallery-item {
