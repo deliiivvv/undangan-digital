@@ -88,7 +88,7 @@ button:hover {
 .invitation {
     display: none;
     min-height: 100vh;
-    padding: 60px 25px;
+    padding: 80px 25px;
     text-align: center;
     background: #f4efe8;
 }
@@ -170,7 +170,7 @@ button:hover {
 }
 .invitation-title {
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .invitation-title::after {
