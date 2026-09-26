@@ -483,6 +483,7 @@ button:hover {
     width: 100%;
     padding: 14px 16px;
     border: 1px solid rgba(63, 57, 50, 0.25);
+    border-radius: 4px;
     background: transparent;
     color: #3f3932;
     font-family: Arial, sans-serif;
