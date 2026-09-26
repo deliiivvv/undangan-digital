@@ -442,6 +442,7 @@ button:hover {
     cursor: pointer;
 
     z-index: 1000;
+    box-shadow: 0 4px 15px rgba (63, 57, 50, 0.25);ß
 }
 .rsvp {
     margin-top: 80px;
