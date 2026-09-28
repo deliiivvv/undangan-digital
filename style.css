@@ -194,6 +194,28 @@ button:hover {
 }
 
 .story-text {
+    .quote {
+    max-width: 500px;
+    margin: 65px auto 0;
+    padding: 45px 25px;
+    text-align: center;
+    border-top: 1px solid rgba(63, 57, 50, 0.2);
+    border-bottom: 1px solid rgba(63, 57, 50, 0.2);
+}
+
+.quote-text {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 2;
+    font-style: italic;
+}
+
+.quote-source {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 2;
