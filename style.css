@@ -184,7 +184,10 @@ button:hover {
 .story {
     max-width: 500px;
     margin: 70px auto 0;
+    padding: 50px 20px;
     text-align: center;
+    border-top: 1px solid rgba(63, 57, 50, 0.2);
+    border-bottom: 1px solid rgba(63, 57, 50, 0.2);
 }
 
 .story-title {
