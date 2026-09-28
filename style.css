@@ -202,7 +202,6 @@ button:hover {
     margin: 65px auto 0;
     padding: 45px 25px;
     text-align: center;
-    border-top: 1px solid rgba(63, 57, 50, 0.2);
     border-bottom: 1px solid rgba(63, 57, 50, 0.2);
 }
 
