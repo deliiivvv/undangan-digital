@@ -190,6 +190,41 @@ button:hover {
     line-height: 2;
     margin-bottom: 20px;
 }
+.couple-section {
+    max-width: 500px;
+    margin: 80px auto 0;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(63, 57, 50, 0.2);
+}
+
+.couple-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.couple-section h2 {
+    font-size: 42px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.1;
+}
+
+.couple-and {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-style: italic;
+    margin: 12px 0;
+}
+
+.couple-message {
+    max-width: 380px;
+    margin: 35px auto 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+}
 .event-details {
     margin-top: 60px;
     display: flex;
