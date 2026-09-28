@@ -181,6 +181,24 @@ button:hover {
     background: #3f3932;
     margin: 15px auto 0;
 }
+.story {
+    max-width: 500px;
+    margin: 70px auto 0;
+    text-align: center;
+}
+
+.story-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.story-text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
 .event-details {
     margin-top: 60px;
     display: flex;
